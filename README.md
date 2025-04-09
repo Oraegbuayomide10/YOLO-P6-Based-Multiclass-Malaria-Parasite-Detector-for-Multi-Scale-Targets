@@ -1,4 +1,4 @@
-# YOLO-for-Malaria-Parasite-Multiclass-Object-Detection
+# YOLO-P6-Based-Multiclass-Malaria-Parasite-Detector-for-Multi-Scale-Targets
 Multiclass object detection model for identifying malaria parasites in blood smear images, designed to support fast and accurate diagnosis in resource-limited settings.
 
 
@@ -33,3 +33,23 @@ i. The slide ID from which the image was captured
 ii. Microscope stage micrometer readings
 
 This dataset was curated to improve the generalization ability of malaria detection models and complements existing malaria microscopy datasets. It is particularly valuable for developing models that perform well across varied field conditions, such as those in communities like Uganda.
+
+## Model
+
+### YOLOv8-p6: A real-time object detection model designed for multi-scale targets.
+
+![YOLOv8](assets/YOLOv8.webp)
+
+
+## Evaluation Metrics
+
+To compare the models fairly, we use the following evaluation metrics:
+
+__Mean Average Precision (mAP50):__ Measures overall detection accuracy at an Intersection over Union (IoU) threshold of 0.5.
+
+__Confusion Matrix:__ A confusion matrix for object detection and classification is a performance measurement tool that evaluates the accuracy of a model in predicting both the presence of objects (localization) and their correct class labels (classification).
+
+## Results
+| Model   | mAP@50 | mAP@50-95 |
+|---------|--------|----------|
+| YOLOv8-p6 |   |     |
