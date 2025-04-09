@@ -52,4 +52,8 @@ __Confusion Matrix:__ A confusion matrix for object detection and classification
 ## Results
 | Model   | mAP@50 | mAP@50-95 |
 |---------|--------|----------|
-| YOLOv8-p6 |   |     |
+| YOLOv8-p6 |  0.856  | 0.444 |
+
+
+## Validation Predictions
+![validationPredictions](assets/eval_results.png)
